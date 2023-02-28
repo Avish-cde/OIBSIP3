@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+	max-width: 700px;
+	margin: 140px auto;
+	padding: 30px;
+	background-color: #f5f5f5;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+    font-family: "Gajraj One", cursive;
+}
+
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+button {
+	padding: 10px;
+	background-color: #3188c6;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+	background-color: #3e8e41;
+    transition-duration: 0.3s;
+}
